@@ -1,0 +1,6 @@
+import "protobuf/recipe_service/requests/get_recipe_request.proto";
+
+service RecipeService {
+    rpc GetRecipe (GetRecipeRequest) returns (GetRecipeResponse);
+}
+
